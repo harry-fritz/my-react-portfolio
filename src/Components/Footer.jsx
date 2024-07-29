@@ -8,10 +8,6 @@ const Footer = () => {
           <span className="text-3xl font-semibold text-fuchsia-800 py-2 uppercase">
             Logo
           </span>
-          <p className="text-[16px] my-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-            optio?
-          </p>
         </div>
         <div>
           <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">

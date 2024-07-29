@@ -6,8 +6,12 @@ const About = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div id="About" className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center">
-      <img data-aos="fade-down"
+    <div
+      id="About"
+      className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center"
+    >
+      <img
+        data-aos="fade-down"
         src={img}
         width={290}
         height={290}
@@ -15,19 +19,24 @@ const About = () => {
         alt=""
       />
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
-        <h1 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal text-fuchsia-500 uppercase">
+        <h1
+          data-aos="fade-right"
+          className="text-[52px] font-semibold mb-8 leading-normal text-fuchsia-500 uppercase"
+        >
           About Me
         </h1>
         <p data-aos="fade-left">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-          explicabo nisi atque officiis fugit voluptatibus, voluptate voluptatum
-          nihil temporibus natus ipsa harum repellat asperiores inventore,
-          laudantium libero. Ratione, laboriosam esse.
+          I'm 24 years old and a 1st year College student. Finding out that
+          websites are made with HTML and CSS got me excited about web
+          development. That made me really interested in computers and
+          programming.
         </p>
         <div className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
             <div className="flex space-x-2">
-             <button className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden">Resume</button>
+              <button className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden">
+                <a href="https://harry-fritz.github.io/RESUME/">Resume</a>
+              </button>
             </div>
           </div>
         </div>
